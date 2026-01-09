@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "Text_Jmeter.Controllers.Sistema_CRUD",
+    "Method": "CreateUser",
+    "RelativePath": "api/Sistema_CRUD",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "Text_Jmeter.WeatherForecast",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Text_Jmeter.Controllers.Sistema_CRUD",
+    "Method": "GetAll",
+    "RelativePath": "api/Sistema_CRUD",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Text_Jmeter.Controllers.Sistema_CRUD",
+    "Method": "GetUser",
+    "RelativePath": "api/Sistema_CRUD/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Text_Jmeter.Controllers.Sistema_CRUD",
+    "Method": "UpdateUser",
+    "RelativePath": "api/Sistema_CRUD/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "user",
+        "Type": "Text_Jmeter.WeatherForecast",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Text_Jmeter.Controllers.Sistema_CRUD",
+    "Method": "DeleteUser",
+    "RelativePath": "api/Sistema_CRUD/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
